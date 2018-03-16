@@ -26,9 +26,9 @@
 #import <Foundation/Foundation.h>
 
 #if DASH_TESTNET
-#define DASH_MAGIC_NUMBER 0xffcae2ce
+#define DASH_MAGIC_NUMBER 0xe3fa2f9b
 #else
-#define DASH_MAGIC_NUMBER 0xbd6b0cbf
+#define DASH_MAGIC_NUMBER 0x2c61e5c8
 #endif
 
 CF_IMPLICIT_BRIDGING_ENABLED

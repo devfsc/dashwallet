@@ -27,15 +27,15 @@
 
 
 #if DASH_TESTNET
-#define DASH_STANDARD_PORT          19999
+#define DASH_STANDARD_PORT 17112
 #else
-#define DASH_STANDARD_PORT          9999
+#define DASH_STANDARD_PORT 7112
 #endif
 
-#define BITCOIN_TIMEOUT_CODE  1001
+#define BITCOIN_TIMEOUT_CODE 1001
 
 #define SERVICES_NODE_NETWORK 0x01 // services value indicating a node carries full blocks, not just headers
-#define SERVICES_NODE_BLOOM   0x04 // BIP111: https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki
+#define SERVICES_NODE_BLOOM 0x04 // BIP111: https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki
 #define USER_AGENT            [NSString stringWithFormat:@"/dashwallet:%@/",\
                                NSBundle.mainBundle.infoDictionary[@"CFBundleShortVersionString"]]
 

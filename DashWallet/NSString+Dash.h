@@ -26,8 +26,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define DASH_PUBKEY_ADDRESS      76
-#define DASH_SCRIPT_ADDRESS      16
+#define DASH_PUBKEY_ADDRESS      55
+#define DASH_SCRIPT_ADDRESS      10
 #define DASH_PUBKEY_ADDRESS_TEST 140
 #define DASH_SCRIPT_ADDRESS_TEST 19
 #define DASH_PRIVKEY             204
